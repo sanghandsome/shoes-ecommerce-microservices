@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: IDENTITY-SERVICE
+  datasource:
+    url: jdbc:mysql://localhost:3306/users
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+  data:
+    redis:
+      host: localhost
+      port: 6379
